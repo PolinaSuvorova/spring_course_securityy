@@ -55,8 +55,24 @@
       <artifactId>spring-security-taglibs</artifactId>
       <version>5.6.12</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.mchange/c3p0
+    Пул, который хранит соединнения с базой, jdbc подключение это трудозатратная
+    операция поэтому рекомундуют хранить подключение к БД -->
+
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.5</version>
+    </dependency>
 
   </dependencies>
+
   <build>
     <finalName>spring_course_securityy</finalName>
   </build>
